@@ -15,7 +15,19 @@ const members_team = [
     {
         name: "Fabio",
         role: "Teacher",
-        image: "https://picsum.photos/id/1005/200/300"
+        image: "https://picsum.photos/id/36/200/300"
+    },
+
+    {
+        name: "Fabiola",
+        role: "Teacher",
+        image: "https://picsum.photos/id/10/200/300"
+    },
+
+    {
+        name: "Tiziano",
+        role: "Teacher",
+        image: "https://picsum.photos/id/12/200/300"
     }
 
 ]

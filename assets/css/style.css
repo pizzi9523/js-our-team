@@ -1,7 +1,13 @@
+body{
+    background-color: rgb(221, 209, 177)!important;
+}
+
 .my_card{
   transition: all 0.5s ease;  
   z-index: 10;
-  overflow: hidden
+  overflow: hidden;
+  border: 1px solid white;
+  margin-right: 20px;
 }
 
 .my_card .backgroundEffect {
@@ -27,7 +33,7 @@
     width: 100%;
     position: absolute;
     z-index: -1;
-    background: #1b9ce3;
+    background: rgb(248, 161, 102);
     animation: popBackground 0.3s ease-in;
 }
 
