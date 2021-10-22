@@ -30,11 +30,14 @@ for (let i = 0; i < members_team.length; i++) {
 let card = "";
 for (let i = 0; i < members_team.length; i++) {
     card +=
-        `<div class="card" style="width: 18rem;">
-        <img src=${members_team[i]["image"]} class="card-img-top my-3" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">${members_team[i]["name"]}</h5>
-        <p class="card-text">${members_team[i]["role"]}</p>
+        `<div class="my_card" style="width: 18rem;">
+            <div class="backgroundEffect"></div>
+             <div class="pic">
+                 <img src=${members_team[i]["image"]} class="card-img-top my-3" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">${members_team[i]["name"]}</h5>
+                 <p class="card-text">${members_team[i]["role"]}</p>
         </div>
     </div>`
 }
